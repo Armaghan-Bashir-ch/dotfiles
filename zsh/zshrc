@@ -1,0 +1,53 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+ZSH_THEME="powerlevel10k/powerlevel10k"
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+alias cls='clear'
+alias vim='nvim'
+alias neofetch="$HOME/neofetch-solid-arch.sh"
+alias matrix="cmatrix"
+alias top="btop"
+# Ctrl + Left/Right
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Ctrl + Shift + Left/Right (optional - Zsh doesn't support selection here)
+bindkey "^[[1;6D" backward-word
+bindkey "^[[1;6C" forward-word
+bindkey "\e\x7f" backward-kill-word
+bindkey "^H" backward-kill-word
+export GTK_THEME=TokyoNight-Dark-BL
+HISTSIZE=10000
+SAVEHIST=10000
+source ~/.pk10k.zsh
+ # Enable fzf keybindings for Bash
+
+
+# Make Ctrl+R open FZF-based history search
+
+
+# Load FZF bindings and completions
+[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
+
+
+
+export FZF_CTRL_R_OPTS="
+  --reverse
+  --height=70%
+  --border=rounded
+  --info=hidden
+  --layout=reverse
+  --prompt='❯ '          # stylish & readable
+  --color=fg:#cdd6f4,bg:#1e1e2e,fg+:#cba6f7,bg+:#313244
+  --color=prompt:#cba6f7,spinner:#f38ba8,header:#cba6f7
+  --color=marker:#cba6f7,pointer:#ffffff
+  --color=border:#cba6f7,gutter:-1
+"
