@@ -62,9 +62,8 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Bindings I use:
+# ⌨️ Bindings I use:
 
 
 | Bind USE                | Type              |  Purpose                     |   
