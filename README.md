@@ -33,23 +33,23 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Nvim setup img:
+# Nvim setup img:
 
 <img width="1599" height="898" alt="image" src="https://github.com/user-attachments/assets/6de1ac82-cca5-430b-b3f4-f875c9b4e7eb" />
 
-Ghostty setup img:
+# Ghostty setup img:
 
 <img width="1538" height="882" alt="image" src="https://github.com/user-attachments/assets/c0b3724a-0ccd-4c3e-b2b0-661fc048829f" />
 
-Cava setup img:
+# Cava setup img:
 
 <img width="1582" height="868" alt="image" src="https://github.com/user-attachments/assets/08d2a8c7-b05e-42af-87c3-3f6f9ea9439a" />
 
-powermenu setup img:
+# powermenu setup img:
 
 <img width="823" height="504" alt="image" src="https://github.com/user-attachments/assets/0fcf3dae-2730-413d-afb9-b3bbc2e0c80f" />
 
-Background Image:
+# Background Image:
 
 <img width="3450" height="2065" alt="image" src="https://github.com/user-attachments/assets/e27b4313-d4f0-46dd-96cd-a1d972f62fb5" />
 
