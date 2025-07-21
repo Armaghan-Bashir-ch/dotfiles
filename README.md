@@ -1,6 +1,8 @@
 # 🛠️ README.md
  
-A minimal but decent chunck of these dotfiles has been taken from the internet, and I have done my best to credit them here, so here are all the credits I could find (in case I missed or did not      |credit you: All credits go to their respective owners/creators/mainters):
+My dotfiles containg a ton of apps configs that has taken me around a month or two write configure every owner of the files, if you are not listed here, either I am not using your config or I have made a mistake, I apologize and all credit goes to the original creators/maintainers.
+
+> **Note:** Some of these files/codes has been taken from te internet, I have gone back to trace every 
 
 Neovim config (my bro): https://github.com/itse4elhaam                                                                                                        
 Cava config: https://github.com/AlphaTechnolog/dotfiles                                                                                                       
