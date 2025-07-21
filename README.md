@@ -14,7 +14,7 @@ fastfetch: https://github.com/ad1822/hyprdots
 ## Clone the repo if you want
 ```git clone https://github.com/Armaghan-Bashir-ch/dotfiles/ ~/.config```
 
->**❗ Caution:** make sure to run these commands before cloning, this will help you get the same setup as me, or install the things that you may use the most:
+>**❗ Caution:** make sure to run the following commands before cloning, this will help you get the same setup as me, or install the things that you may use the most:
 
 
 ## ⚙️ Commands
