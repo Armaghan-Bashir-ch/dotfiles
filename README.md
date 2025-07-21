@@ -25,7 +25,7 @@ Clone the repo if you want to:
 
 sudo pacman/ yay  ``` -Q ghostty alacritty cava waybar fastfetch neofetch nvim rofi git wget curl spotify sddm tmux waybar zsh hyprland yay peru npm pipe sddm swaylock-fancy swaylock obsidian cmake btop spicetify-cli```
 
-Clone pklevel10k
+Clone pklevel10k & NvCHAD
 
 ```git clone git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/zsh/themes/powerlevel10k```                                          
 ```git clone https://github.com/NvChad/starter ~/.config/nvim && nvim```
@@ -37,6 +37,8 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Previews 🌄 
 
 # Neovim Setup Image:
 
