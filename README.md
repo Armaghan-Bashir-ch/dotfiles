@@ -4,9 +4,9 @@ My dotfiles. Containg a ton of apps configs that has taken me around a month or 
 
 > **Note:** Some of these files/codes has been taken from the internet, I have gone back to trace every owner of the files, if you are not listed here, either I am not using your config or I have made a mistake, I apologize and all credit goes to the original creators/maintainers.
 
-** Neovim config : https://github.com/itse4elhaam **                                                                                                       
-** Cava config: https://github.com/AlphaTechnolog/dotfiles **                                                                                                    
-** fastfetch: https://github.com/ad1822/hyprdots **
+Neovim config : https://github.com/itse4elhaam                                                                                                      
+Cava config: https://github.com/AlphaTechnolog/dotfiles                                                                                                    
+fastfetch: https://github.com/ad1822/hyprdots 
 
 
 # 🚀 Getting Started
@@ -55,7 +55,7 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 
 ## Background Image:
 
-<img width="3450" height="2065" alt="image" src="https://github.com/user-attachments/assets/e27b4313-d4f0-46dd-96cd-a1d972f62fb5" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e27b4313-d4f0-46dd-96cd-a1d972f62fb5" />
 
 
 
