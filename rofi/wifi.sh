@@ -20,12 +20,12 @@ fi
 
 # Rofi skeleton for enable
 enable_menu() {
-    rofi -markup-rows -dmenu -theme "$HOME/.config/hyprdots/rofi/wifi/list.rasi"
+    rofi -markup-rows -dmenu -theme "$HOME/.config/hyprdots/rofi/wifi/list-wifi.rasi"
 }
 # Rofi skeleton for enable
 # Rofi skeleton for list
 list_menu() {
-	rofi -markup-rows -dmenu -theme "$HOME/.config/hyprdots/rofi/wifi/list.rasi"
+	rofi -markup-rows -dmenu -theme "$HOME/.config/hyprdots/rofi/wifi/list-wifi.rasi"
 }
 
 
@@ -46,12 +46,12 @@ show_details() {
 
 # Rofi menu for the ssid
 take_ssid() {
-	ssid=$( echo "" | rofi -dmenu -p "${choice}" -theme "$HOME/.config/rofi/wifi/ssid.rasi" )
+	ssid=$( echo "" | rofi -dmenu -p "${choice}" -theme "$HOME/.config/rofi/wifi/ssid-wifi.rasi" )
 }
 
 # Rofi menu for the password
 take_password() {
-  password=$( echo "" | rofi -dmenu -p "${choice}" -theme "$HOME/.config/hyprdots/rofi/wifi/password.rasi" )
+  password=$( echo "" | rofi -dmenu -p "${choice}" -theme "$HOME/.config/hyprdots/rofi/wifi/password-wifi.rasi" )
 }
 # Show the menu accordingly
 if [ "$check_wifi_on" == "enabled" ] ; then 
