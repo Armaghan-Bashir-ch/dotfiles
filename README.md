@@ -120,3 +120,4 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 | `$wifi`            | `~/.config/hyprdots/rofi/wifi/wifi.sh` — WiFi selector script |
 | `$previoussession` | `~/.config/startup_apps.sh` — restore previous session apps in their respective workspaces |
 | `$clock`           | `alacritty --title tty-clock -e tty-clock -c -C 4 -s -t` — TTY clock |
+
