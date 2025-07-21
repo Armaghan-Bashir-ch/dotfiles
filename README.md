@@ -62,43 +62,43 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 
 | Bind USE                | Type              |  Purpose                     |   
 | ------------------------ | ----------------- | ----------------------------- |
-| `SUPER + Q`              | `exec`            | Launch `$terminal`            |
-| `SUPER + E`              | `exec`            | Launch `$fileManager`         |
+| `$mainMod + Q`              | `exec`            | Launch `$terminal`            |
+| `$mainMod + E`              | `exec`            | Launch `$fileManager`         |
 | `CTRL + SPACE`           | `exec`            | Launch `$menu`                |
-| `SUPER + X`              | `exec`            | Launch `$powermenu`           |
-| `SUPER + SHIFT + F`      | `exec`            | Launch `$browser`             |
-| `SUPER + SHIFT + O`      | `exec`            | Launch `$notes`               |
-| `SUPER + CTRL + C`       | `exec`            | Launch `$calender`            |
-| `SUPER + SHIFT + S`      | `exec`            | Launch `$musicplayer`         |
-| `SUPER + SHIFT + A`      | `exec`            | Launch `$backupterminal`      |
-| `SUPER + S`              | `exec`            | Take `$screenshot`            |
-| `SUPER + L`              | `exec`            | Lock screen (`$lockscreen`)   |
-| `SUPER + V`              | `exec`            | Launch `$clipboard`           |
-| `SUPER + SHIFT + C`      | `exec`            | Launch `$calculator`          |
-| `SUPER + SHIFT + W`      | `exec`            | Launch `$statusbar`           |
-| `SUPER + CTRL + M`       | `exec`            | Launch `$musicvisualizer`     |
-| `SUPER + CTRL + ALT + C` | `exec`            | Launch `$clock`               |
-| `SUPER + CTRL + W`       | `exec`            | Launch `$wifi`                |
-| `SUPER + T`              | `togglefloating`  | Toggle floating window        |
-| `SUPER + P`              | `pseudo`          | Toggle pseudo tiling          |
-| `SUPER + J`              | `togglesplit`     | Toggle split layout           |
-| `SUPER + [1–0]`          | `workspace`       | Switch to workspace 1–10      |
-| `SUPER + M`              | `workspace`       | Switch to workspace 10        |
-| `SUPER + SHIFT + [1–0]`  | `movetoworkspace` | Move window to workspace 1–10 |
-| `SUPER + W`              | `killactive`      | Kill active window            |
+| `$mainMod + X`              | `exec`            | Launch `$powermenu`           |
+| `$mainMod + SHIFT + F`      | `exec`            | Launch `$browser`             |
+| `$mainMod + SHIFT + O`      | `exec`            | Launch `$notes`               |
+| `$mainMod + CTRL + C`       | `exec`            | Launch `$calender`            |
+| `$mainMod + SHIFT + S`      | `exec`            | Launch `$musicplayer`         |
+| `$mainMod + SHIFT + A`      | `exec`            | Launch `$backupterminal`      |
+| `$mainMod + S`              | `exec`            | Take `$screenshot`            |
+| `$mainMod + L`              | `exec`            | Lock screen (`$lockscreen`)   |
+| `$mainMod + V`              | `exec`            | Launch `$clipboard`           |
+| `$mainMod + SHIFT + C`      | `exec`            | Launch `$calculator`          |
+| `$mainMod + SHIFT + W`      | `exec`            | Launch `$statusbar`           |
+| `$mainMod + CTRL + M`       | `exec`            | Launch `$musicvisualizer`     |
+| `$mainMod + CTRL + ALT + C` | `exec`            | Launch `$clock`               |
+| `$mainMod + CTRL + W`       | `exec`            | Launch `$wifi`                |
+| `$mainMod + T`              | `togglefloating`  | Toggle floating window        |
+| `$mainMod + P`              | `pseudo`          | Toggle pseudo tiling          |
+| `$mainMod + J`              | `togglesplit`     | Toggle split layout           |
+| `$mainMod + [1–0]`          | `workspace`       | Switch to workspace 1–10      |
+| `$mainMod + M`              | `workspace`       | Switch to workspace 10        |
+| `$mainMod + SHIFT + [1–0]`  | `movetoworkspace` | Move window to workspace 1–10 |
+| `$mainMod + W`              | `killactive`      | Kill active window            |
 | `ALT + arrow keys`       | `movefocus`       | Move focus (L/R/U/D)          |
 | `XF86AudioRaiseVolume`   | `exec`            | Volume up + show HUD          |
 | `XF86AudioLowerVolume`   | `exec`            | Volume down + show HUD        |
 | `XF86MonBrightnessUp`    | `exec`            | Increase brightness           |
 | `XF86MonBrightnessDown`  | `exec`            | Decrease brightness           |
 | `XF86AudioMute`          | `exec`            | Mute/Unmute + notify          |
-| `SUPER + CTRL + R`       | `exec`            | Load `$previoussession`       |
-| `SUPER + mouse:273/272`  | `bindm`           | Resize window with mouse      |  
+| `$mainMod + CTRL + R`       | `exec`            | Load `$previoussession`       |
+| `$mainMod + mouse:273/272`  | `bindm`           | Resize window with mouse      |  
 
 
 | Variable           | Represents                                                 |
 |--------------------|------------------------------------------------------------|
-| `$mainMod`         |  SUPER/WINDOWS key                                         |
+| `$mainMod`         |  $mainMod/WINDOWS key                                         |
 | `$terminal`        | `ghostty` — main terminal emulator                          |
 | `$fileManager`     | `dolphin` — GUI file manager                               |
 | `$menu`            | `~/.config/hyprdots/rofi/launcher/launcher.sh` — Rofi launcher |
