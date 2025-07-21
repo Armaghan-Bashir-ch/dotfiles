@@ -23,3 +23,8 @@ Clone pklevel10k
 
 Install the things that are not installed, OH MY ZSH is not required
 
+If you use the hyprland.conf or the binds make sure to upadate them every once in a while :)
+
+Nvim setup img:
+
+<img width="1599" height="898" alt="image" src="https://github.com/user-attachments/assets/6de1ac82-cca5-430b-b3f4-f875c9b4e7eb" />
