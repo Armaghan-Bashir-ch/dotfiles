@@ -44,9 +44,13 @@ powermenu setup img:
 <img width="823" height="504" alt="image" src="https://github.com/user-attachments/assets/0fcf3dae-2730-413d-afb9-b3bbc2e0c80f" />
 
 
+
+
 Shortcuts explained:
 
-| Bind Name                | How to Use        | What It Does                  |
+
+
+| Bind Name               | Type             |  What It Does                |
 | ------------------------ | ----------------- | ----------------------------- |
 | `SUPER + Q`              | `exec`            | Launch `$terminal`            |
 | `SUPER + E`              | `exec`            | Launch `$fileManager`         |
