@@ -1,10 +1,10 @@
-A minimal but decent chunck of these dotfiles has been taken from the internet, and I have done my best to credit them here, so here are all the credits I could find (in case I missed or did not credit you: All credits go to their respective owners/creators/mainters):
-
-Neovim config (my bro): https://github.com/itse4elhaam                                                                                                        
-cava config: https://github.com/AlphaTechnolog/dotfiles                                                                                                       
-fastfetch: https://github.com/ad1822/hyprdots
-
-Now to the real business:
+| A minimal but decent chunck of these dotfiles has been taken from the internet, and I have done my best to credit them here, so here are all the credits I could find (in case I missed or did not      |credit you: All credits go to their respective owners/creators/mainters):
+|
+|Neovim config (my bro): https://github.com/itse4elhaam                                                                                                        
+|cava config: https://github.com/AlphaTechnolog/dotfiles                                                                                                       
+|fastfetch: https://github.com/ad1822/hyprdots
+|
+|Now to the real business:
 
 *************************************************************************************************************************************************************
 
@@ -18,7 +18,7 @@ Clone the repo if you want to:
 
 make sure to run these commands before cloning, this will help you get the same setup as me, or install the things that you may use the most:
 
-sudo pacman/ yay  ``` -Q ghostty alacritty cava waybar fastfetch neofetch nvim rofi git wget curl spotify sddm tmux waybar zsh hyprland yay peru npm pipe sddm swaylock-fancy swaylock obsidian cmake btop```
+|sudo pacman/ yay  ``` -Q ghostty alacritty cava waybar fastfetch neofetch nvim rofi git wget curl spotify sddm tmux waybar zsh hyprland yay peru npm pipe sddm swaylock-fancy swaylock obsidian cmake    btop```
 
 Clone pklevel10k
 
