@@ -1,8 +1,8 @@
 # 🛠️ README.md
  
-My dotfiles containg a ton of apps configs that has taken me around a month or two write configure every owner of the files, if you are not listed here, either I am not using your config or I have made a mistake, I apologize and all credit goes to the original creators/maintainers.
+My dotfiles containg a ton of apps configs that has taken me around a month or two write configure.
 
-> **Note:** Some of these files/codes has been taken from te internet, I have gone back to trace every 
+> **Note:** Some of these files/codes has been taken from the internet, I have gone back to trace every owner of the files, if you are not listed here, either I am not using your config or I have made a mistake, I apologize and all credit goes to the original creators/maintainers.
 
 Neovim config (my bro): https://github.com/itse4elhaam                                                                                                        
 Cava config: https://github.com/AlphaTechnolog/dotfiles                                                                                                       
