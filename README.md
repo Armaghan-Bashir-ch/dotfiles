@@ -119,3 +119,21 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 | `$previoussession` | `~/.config/startup_apps.sh` — restore previous session apps in their respective workspaces |
 | `$clock`           | `alacritty --title tty-clock -e tty-clock -c -C 4 -s -t` — TTY clock |
 
+| Rules                                                                   | Meaning
+| --------------------------------------------------------------------------------------|
+| `windowrulev2 = opacity 0.90 0.90,class:^(Alacritty)$`                  | Alacritty opacity = 0.90
+| `windowrulev2 = opacity 0.97 0.97,class:^(Spotify)$`
+| `windowrulev2 = opacity 0.98 0.98,class:^(firefox)$`
+| `windowrulev2 = opacity 0.8 0.8,class:^(obsidian)$`
+| `windowrulev2 = opacity 0.6 0.6,class:^(ulauncher)`
+| `windowrulev2 = opacity 0.85 0.85, initialClass:^(org.kde.dolphin)$60`
+| `windowrulev2 = opacity 1.0 1.0,class:^(org.gnome.Calendar)$`
+| `windowrulev2 = opacity 0.75 0.75,initalclass:^(com.mitchellh.ghostty)$`
+| `windowrulev2 = float, class:^(firefox)$`
+| `windowrulev2 = tile, class:^(obsidian)$`
+| `windowrulev2 = tile, class:^(Spotify)$`
+| `windowrulev2 = tile, class:^(Alacritty)$`
+| `windowrulev2 = tile, class:.*`
+| `windowrule = suppressevent maximize, class:.*`
+| `windowrulev2 = noborder, class:^(com\.mitchellh\.ghostty)$`
+ 
