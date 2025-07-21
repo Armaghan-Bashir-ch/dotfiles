@@ -35,7 +35,6 @@ Install the things that are not installed, OH MY ZSH is not required
 If you use the hyprland.conf or the binds make sure to upadate them every once in a while :)
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Previews 🌄 
 
