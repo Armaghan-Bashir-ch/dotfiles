@@ -18,7 +18,7 @@ Clone the repo if you want to:
 
 make sure to run these commands before cloning, this will help you get the same setup as me, or install the things that you may use the most:
 
-|sudo pacman/ yay  ``` -Q ghostty alacritty cava waybar fastfetch neofetch nvim rofi git wget curl spotify sddm tmux waybar zsh hyprland yay peru npm pipe sddm swaylock-fancy swaylock obsidian cmake    btop spicetify-cli```
+sudo pacman/ yay  ``` -Q ghostty alacritty cava waybar fastfetch neofetch nvim rofi git wget curl spotify sddm tmux waybar zsh hyprland yay peru npm pipe sddm swaylock-fancy swaylock obsidian cmake    btop spicetify-cli```
 
 Clone pklevel10k
 
@@ -98,7 +98,7 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 
 | Variable           | Represents                                                 |
 |--------------------|------------------------------------------------------------|
-| `$mainMod`         |  $mainMod/WINDOWS key                                         |
+| `$mainMod`         | SUPER/WINDOWS key                                          |
 | `$terminal`        | `ghostty` — main terminal emulator                          |
 | `$fileManager`     | `dolphin` — GUI file manager                               |
 | `$menu`            | `~/.config/hyprdots/rofi/launcher/launcher.sh` — Rofi launcher |
