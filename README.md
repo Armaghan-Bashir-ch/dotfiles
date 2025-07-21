@@ -15,7 +15,7 @@ Clone the repo if you want to:
 
 !Disclaimer! make sure to run this command before cloning, this will help you get the setup as me, or install the things that you may use the most:
 
-sudo pacman/ yay  ``` -Q ghostty alacritty cava waybar fastfetch neofetch nvim rofi git wget curl spotify sddm tmux waybar zsh hyprland yay peru npm pipe sddm swaylock-fancy swaylock```
+sudo pacman/ yay  ``` -Q ghostty alacritty cava waybar fastfetch neofetch nvim rofi git wget curl spotify sddm tmux waybar zsh hyprland yay peru npm pipe sddm swaylock-fancy swaylock obsidian cmake btop```
 
 Clone pklevel10k
 
