@@ -8,9 +8,9 @@ Neovim config (my bro): https://github.com/itse4elhaam
 Cava config: https://github.com/AlphaTechnolog/dotfiles                                                                                                       
 fastfetch: https://github.com/ad1822/hyprdots
 
-Now to the real business:
-
 *************************************************************************************************************************************************************
+
+# 🚀 Getting Started
 
 These are my dotfiles I use daily in my workflow on Arch Linux Hypr/Wayland, these include apps like: Ghostty Cava fast/neofetch and more.
 
