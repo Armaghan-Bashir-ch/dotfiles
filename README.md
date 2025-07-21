@@ -98,6 +98,7 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 
 | Variable           | Represents                                                 |
 |--------------------|------------------------------------------------------------|
+| `$mainMod`         |  SUPER/WINDOWS key                                         |
 | `$terminal`        | `ghostty` — main terminal emulator                          |
 | `$fileManager`     | `dolphin` — GUI file manager                               |
 | `$menu`            | `~/.config/hyprdots/rofi/launcher/launcher.sh` — Rofi launcher |
