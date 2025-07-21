@@ -83,6 +83,7 @@ Bindings I use:
 | `SUPER + P`              | `pseudo`          | Toggle pseudo tiling          |
 | `SUPER + J`              | `togglesplit`     | Toggle split layout           |
 | `SUPER + [1–0]`          | `workspace`       | Switch to workspace 1–10      |
+| `SUPER + M`              | `workspace`       | Switch to workspace 10        |
 | `SUPER + SHIFT + [1–0]`  | `movetoworkspace` | Move window to workspace 1–10 |
 | `SUPER + W`              | `killactive`      | Kill active window            |
 | `ALT + arrow keys`       | `movefocus`       | Move focus (L/R/U/D)          |
