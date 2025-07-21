@@ -6,8 +6,7 @@ fastfetch: https://github.com/ad1822/hyprdots
 
 Now to the real business:
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+*************************************************************************************************************************************************************
 
 These are my dotfiles I use daily in my workflow on Arch Linux Hypr/Wayland, these include apps like: Ghostty Cava fast/neofetch and more.
 
@@ -31,7 +30,6 @@ If you use the hyprland.conf or the binds make sure to upadate them every once i
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Nvim setup img:
 
@@ -53,8 +51,6 @@ powermenu setup img:
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 Bindings I use:
 
@@ -104,13 +100,13 @@ Bindings I use:
 | `$notes`           | `obsidian` — notes application                             |
 | `$calender`        | `gnome-calender` — calendar app                            |
 | `$musicplayer`     | `spotify` — music player                                   |
-| `$backupterminal`  | `~/.config/hypr/scripts/split_alacritty_forever.sh` — split Alacritty script |
+| `$backupterminal`  | `~/.config/hypr/scripts/split_alacritty_forever.sh` — Alacritty custom script |
 | `$screenshot`      | `hyprshot -m region -c` — screenshot tool                  |
 | `$lockscreen`      | `swaylock-fancy` — locks the screen                        |
-| `$clipboard`       | `~/.config/hyprdots/rofi/clipboard/launcher.sh` — clipboard manager |
+| `$clipboard`       | `~/.config/hyprdots/rofi/clipboard/launcher.sh` — clipboard manager Custom |
 | `$calculator`      | Opens Google calculator in Firefox                         |
 | `$statusbar`       | `waybar` — status bar                                      |
 | `$musicvisualizer` | `ghostty -e cava` — run Cava visualizer in terminal        |
 | `$wifi`            | `~/.config/hyprdots/rofi/wifi/wifi.sh` — WiFi selector script |
-| `$previoussession` | `~/.config/startup_apps.sh` — restore previous session apps |
+| `$previoussession` | `~/.config/startup_apps.sh` — restore previous session apps in their respective workspaces |
 | `$clock`           | `alacritty --title tty-clock -e tty-clock -c -C 4 -s -t` — TTY clock |
