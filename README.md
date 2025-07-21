@@ -47,6 +47,9 @@ powermenu setup img:
 
 <img width="823" height="504" alt="image" src="https://github.com/user-attachments/assets/0fcf3dae-2730-413d-afb9-b3bbc2e0c80f" />
 
+Background Image:
+
+<img width="3450" height="2065" alt="image" src="https://github.com/user-attachments/assets/e27b4313-d4f0-46dd-96cd-a1d972f62fb5" />
 
 
 
