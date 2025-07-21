@@ -22,7 +22,9 @@ sudo pacman/ yay  ``` -Q ghostty alacritty cava waybar fastfetch neofetch nvim r
 
 Clone pklevel10k
 
-```git clone git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/zsh/themes/powerlevel10k```
+```git clone git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/zsh/themes/powerlevel10k```                                          
+```git clone https://github.com/NvChad/starter ~/.config/nvim && nvim```
+
 
 Install the things that are not installed, OH MY ZSH is not required
 
