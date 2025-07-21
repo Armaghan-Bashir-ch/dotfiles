@@ -18,7 +18,7 @@ Clone the repo if you want to:
 
 ```git clone https://github.com/Armaghan-Bashir-ch/dotfiles/ ~/.config```
 
-**❗ Caution:**
+**❗ Caution:**>
 
 make sure to run these commands before cloning, this will help you get the same setup as me, or install the things that you may use the most:
 
