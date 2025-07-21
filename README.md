@@ -50,7 +50,7 @@ Shortcuts explained:
 
 
 
-| Bind Name               | Type             |  What It Does                |
+| Bind USE                | Type             |  Purpose                     |
 | ------------------------ | ----------------- | ----------------------------- |
 | `SUPER + Q`              | `exec`            | Launch `$terminal`            |
 | `SUPER + E`              | `exec`            | Launch `$fileManager`         |
