@@ -13,8 +13,9 @@ Clone the repo if you want to:
 
 ```git clone https://github.com/Armaghan-Bashir-ch/dotfiles/ ~/.config```
 
-**⚠️ Caution:**
-make sure to run this command before cloning, this will help you get the same setup as me, or install the things that you may use the most:
+**❗ Caution:**:
+
+make sure to run these commands before cloning, this will help you get the same setup as me, or install the things that you may use the most:
 
 sudo pacman/ yay  ``` -Q ghostty alacritty cava waybar fastfetch neofetch nvim rofi git wget curl spotify sddm tmux waybar zsh hyprland yay peru npm pipe sddm swaylock-fancy swaylock obsidian cmake btop```
 
