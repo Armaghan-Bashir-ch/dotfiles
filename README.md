@@ -11,10 +11,8 @@ fastfetch: https://github.com/ad1822/hyprdots
 
 # 🚀 Getting Started
 
-These are my dotfiles I use daily in my workflow on Arch Linux Hypr/Wayland, these include apps like: Ghostty Cava fast/neofetch and more.
-
 ## Clone the repo if you want
-### ```git clone https://github.com/Armaghan-Bashir-ch/dotfiles/ ~/.config```
+```git clone https://github.com/Armaghan-Bashir-ch/dotfiles/ ~/.config```
 
 >**❗ Caution:** make sure to run these commands before cloning, this will help you get the same setup as me, or install the things that you may use the most:
 
