@@ -6,6 +6,8 @@ fastfetch: https://github.com/ad1822/hyprdots
 
 Now to the real business:
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 These are my dotfiles I use daily in my workflow on Arch Linux Hypr/Wayland, these include apps like: Ghostty Cava fast/neofetch and more.
 
@@ -27,6 +29,10 @@ Install the things that are not installed, OH MY ZSH is not required
 
 If you use the hyprland.conf or the binds make sure to upadate them every once in a while :)
 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Nvim setup img:
 
 <img width="1599" height="898" alt="image" src="https://github.com/user-attachments/assets/6de1ac82-cca5-430b-b3f4-f875c9b4e7eb" />
@@ -46,11 +52,14 @@ powermenu setup img:
 
 
 
-Shortcuts explained:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+Bindings I use:
 
-| Bind USE                | Type             |  Purpose                     |
+
+| Bind USE                | Type              |  Purpose                     |   
 | ------------------------ | ----------------- | ----------------------------- |
 | `SUPER + Q`              | `exec`            | Launch `$terminal`            |
 | `SUPER + E`              | `exec`            | Launch `$fileManager`         |
@@ -85,3 +94,23 @@ Shortcuts explained:
 | `SUPER + mouse:273/272`  | `bindm`           | Resize window with mouse      |  
 
 
+| Variable           | Represents                                                 |
+|--------------------|------------------------------------------------------------|
+| `$terminal`        | `ghostty` — main terminal emulator                          |
+| `$fileManager`     | `dolphin` — GUI file manager                               |
+| `$menu`            | `~/.config/hyprdots/rofi/launcher/launcher.sh` — Rofi launcher |
+| `$powermenu`       | `/home/armaghan/rofi/files/powermenu/type-6/powermenu.sh` — Power menu script |
+| `$browser`         | `firefox` — web browser                                    |
+| `$notes`           | `obsidian` — notes application                             |
+| `$calender`        | `gnome-calender` — calendar app                            |
+| `$musicplayer`     | `spotify` — music player                                   |
+| `$backupterminal`  | `~/.config/hypr/scripts/split_alacritty_forever.sh` — split Alacritty script |
+| `$screenshot`      | `hyprshot -m region -c` — screenshot tool                  |
+| `$lockscreen`      | `swaylock-fancy` — locks the screen                        |
+| `$clipboard`       | `~/.config/hyprdots/rofi/clipboard/launcher.sh` — clipboard manager |
+| `$calculator`      | Opens Google calculator in Firefox                         |
+| `$statusbar`       | `waybar` — status bar                                      |
+| `$musicvisualizer` | `ghostty -e cava` — run Cava visualizer in terminal        |
+| `$wifi`            | `~/.config/hyprdots/rofi/wifi/wifi.sh` — WiFi selector script |
+| `$previoussession` | `~/.config/startup_apps.sh` — restore previous session apps |
+| `$clock`           | `alacritty --title tty-clock -e tty-clock -c -C 4 -s -t` — TTY clock |
