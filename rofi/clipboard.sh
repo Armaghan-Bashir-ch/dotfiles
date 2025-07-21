@@ -13,7 +13,7 @@ if [[ $choice == *"Wipe Clipboard"* ]]; then
     no=''
 
     confirmation=$(echo -e "<span foreground='#a6e3a1'>$yes</span>\n<span foreground='#f38ba8'>$no</span>" | \
-        rofi -markup-rows -dmenu -p 'Confirmation' -mesg 'Are you Sure?' -theme ${dir}/confirmation.rasi)
+        rofi -markup-rows -dmenu -p 'Confirmation' -mesg 'Are you Sure?' -theme ${dir}/confirmation-clipbaord.rasi)
 
     if [[ $confirmation =~ "$yes" ]]; then
         cliphist wipe
