@@ -1,4 +1,6 @@
- A minimal but decent chunck of these dotfiles has been taken from the internet, and I have done my best to credit them here, so here are all the credits I could find (in case I missed or did not      |credit you: All credits go to their respective owners/creators/mainters):
+# 🛠️ README.md
+ 
+A minimal but decent chunck of these dotfiles has been taken from the internet, and I have done my best to credit them here, so here are all the credits I could find (in case I missed or did not      |credit you: All credits go to their respective owners/creators/mainters):
 
 Neovim config (my bro): https://github.com/itse4elhaam                                                                                                        
 Cava config: https://github.com/AlphaTechnolog/dotfiles                                                                                                       
