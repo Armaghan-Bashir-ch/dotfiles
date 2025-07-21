@@ -11,7 +11,7 @@ These are my dotfiles I use daily in my workflow on Arch Linux Hypr/Wayland, the
 
 Clone the repo if you want to:
 
-git clone https://github.com/Armaghan-Bashir-ch/dotfiles/ ~/.config
+```git clone https://github.com/Armaghan-Bashir-ch/dotfiles/ ~/.config```
 
 !Disclaimer! make sure to run this command before cloning, this will help you get the setup as me, or install the things that you may use the most:
 
