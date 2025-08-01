@@ -48,7 +48,6 @@ yay -S \
   bibata-cursor-theme swayimg swaync cliphist pipewire wireplumber \
   spicetify-cli figlet cowsay lolcat tmux networkmanager
 
-# Set up Powerlevel10k safely
 git clone https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
 echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
