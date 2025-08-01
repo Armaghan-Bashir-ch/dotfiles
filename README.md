@@ -5,15 +5,25 @@ This dotfiles contain all the configs for the apps that I use mostly, it is very
 What I use:
 
 > Terminal = Ghostty
+> 
 > Browser = Firefox or Zen
+> 
 > Shell = ZSH
+> 
 > Prompt = Powerlevel10k
+> 
 > Editor = Neovim
+> 
 > File-Manager = Dolphin
+> 
 > Statusbar = Waybar
-> Notification manager = Swaync (default)
-> Terminal multiplexer = Tmux 
+> 
+> Notification manager = Swaync (default
+
+> Terminal multiplexer = Tmux
+> 
 > Package Managers = yay pacman peru npm
+> 
 
 How I use them:
 
