@@ -1,21 +1,20 @@
 {
   "layer": "top",
   "position": "top",
-  "modules-left": ["hyprland/workspaces", "custom/spotify"],
-
-  "modules-center": ["clock", "custom/weather"],
-
+  "modules-left": [
+        "custom/stream_status",
+        "hyprland/workspaces"
+    ],
+  "modules-center": ["clock"],
   "modules-right": [
     "pulseaudio",
-    "custom/uptime",
-    "backlight",
+    "brightness",
     "battery",
     "network",
     "cpu",
     "memory",
     "tray",
-    "custom/lock",
-    "custom/power"
+    "custom/lock"
   ],
 
   "hyprland/workspaces": {
@@ -25,83 +24,64 @@
       "default": ""
     }
   },
-
   "tray": {
-    "icon-size": 16,
+    "icon-size": 21,
     "spacing": 10
   },
-
-  "custom/music": {
-    "format": "  {}",
-    "escape": true,
-    "interval": 5,
-    "tooltip": false,
-    "exec": "playerctl metadata --format='{{ artist }} - {{ title }}'",
-    "on-click": "playerctl play-pause",
-    "max-length": 50
-  },
-
   "clock": {
-    "timezone": "America/Fortaleza",
+    "timezone": "Asia/karachi",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "{:%d/%m/%Y - %H:%M:%S}",
-    "interval": 1
+    "format": "{:%e %b - %I:%M %p}",
+    "on-click": "gnome-calendar"
   },
-
   "network": {
-    "format-wifi": "󰤢 {bandwidthDownBits}",
-    "format-ethernet": "󰈀 {bandwidthDownBits}",
-    "format-disconnected": "󰤠 No Network",
+    "format-wifi": " 󰤨 ",
+    "format-ethernet": "󰈀 ",
+    "format-disconnected": "󰤠 ",
     "interval": 5,
+    "on-click": " ~/.config/hyprdots/rofi/wifi/wifi.sh",
     "tooltip": false
   },
-
   "cpu": {
     "interval": 1,
     "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
-    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    "on-click": "btop"
   },
-
   "memory": {
     "interval": 30,
     "format": "  {used:0.1f}G/{total:0.1f}G"
   },
-
-  "custom/uptime": {
-    "format": "{}",
-    "interval": 1600,
-    "exec": "sh -c '(uptime -p)'"
-  },
-
   "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-muted": "",
     "format-icons": {
       "default": ["", "", " "]
     },
+    "custom/brightness": {
+  "format": " {percentage}%",
+  "exec": "brightnessctl | awk '/Current/ { print int($4) }' | tr -d '()%'", 
+  "interval": 2,
+  "on-click": "brightnessctl set 10%+",
+  "on-click-right": "brightnessctl set 10%-",
+  "tooltip": false
+},
     "on-click": "pavucontrol"
   },
-
-  "custom/power": {
+  "custom/lock": {
     "tooltip": false,
-    "on-click": "wlogout &",
-    "format": "⏻"
+    "on-click": "wlogout",
+    "format": ""
   },
+    "custom/stream_status": {
+        "format": "{text}",
+        "exec": "~/.local/scripts/stream_status",
+        "interval": 5,
+        "return-type": "json",
+        "tooltip": true
+    },
+    "later": {
+        "format": "<span class='icon'>{icon}</span> <span class='text'>{text}</span>"
+    }
 
-  "custom/spotify": {
-  "format": "  {}",
-  "interval": 5,
-  "exec": "playerctl --player=spotify metadata --format '{{title}} — {{artist}}'",
-  "return-type": "text",
-  "on-click": "playerctl --player=spotify play-pause",
-  "tooltip": true
-},
-
-  "custom/weather": {
-    "format": "{}",
-    "tooltip": true,
-    "interval": 1800,
-    "exec": "~/.scripts/weather-stats/main",
-    "return-type": "json"
-  }
 }
