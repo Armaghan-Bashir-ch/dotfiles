@@ -19,7 +19,7 @@ What I use:
 > Statusbar = Waybar
 > 
 > Notification manager = Swaync (default
-
+> 
 > Terminal multiplexer = Tmux
 > 
 > Package Managers = yay pacman peru npm
