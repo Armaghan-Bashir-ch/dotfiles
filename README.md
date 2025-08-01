@@ -1,3 +1,58 @@
+# My Arch Linux + Hyprland dotfiles
+
+This dotfiles contain all the configs for the apps that I use mostly, it is very minimilist, but effective.
+
+What I use:
+
+| Terminal = Ghostty
+| Browser = Firefox or Zen
+| Shell = ZSH
+| Prompt = Powerlevel10k
+| Editor = Neovim
+| File-Manager = Dolphin
+| Statusbar = Waybar
+| Notification manager = Swaync (default)
+| Terminal multiplexer = Tmux 
+| Package Managers = yay pacman peru npm
+
+How I use them:
+
+I don't want anything that I already know to take time to be done, so thats why when I open Ghostty using a simple shortcut, I immediately run the command tmux -attach -<session-name>. And that connectes me to the session I need to get started again.
+
+I also don't want to search for things, I want things to be in a place where I know they are there, and it should not require any brain power of mine, to get there, example; If I need to go to my browser I go into my first workspace, by pressing SUPER + 1, I know that, I don't have to remember that, and lets say I want to go to my terminal (Ghostty): I would go workspace 2, by pressing SUPER + 2, it requires no brain power, I know which app is in which workspace and how to access it, and if I do not have an app open, I just press the shortcut to open it, and if for some reason it does not have a shortcut, then I will open rofi and acutally search for the app.
+
+Similer things for everything, if I am in tmux, (in which I always have three windows: Coding, DevOps, btop/performance) and if I want to switch between them I just press ALT + h/l keys to navigate between them, and once I got used to it, I figured out that there is no need for that tmux status bar, because I already know what windows I have and how to switch between them.
+
+And same for nvim, once I am in nvim I have harpoon, and I have 7 files that I usually edit, and to switch between them I just press <leader> (space) + **n** which is the number of the file I want to switch to.
+
+and same for browser, if I want to go to first tab of my browser, I just press ALT + 1...., and I go to that.
+
+My simple philosophy is that; it should not require you to think how to get from one place to another, you should just be there right when you think you should be there.
+
+I am willing to use anything that reduces the amount of time required, example; I just recently started using zoxide, which is so time precious and time saving, of course the thing that saves you time, at first takes your time as well, but you will get that time back 10 fold, just as an example zoxide needs to remember the folder path, but if you just spend a day full of doing it like you did before or just alias it to cd in the .zshrc, it all becomes super easy.
+
+And this why I love using Arch and Hyprland, because it makes the system feel and look like as YOU want it.
+
+## 🚀 Installation
+
+`git clone https://github.com/Armaghan-Bashir-ch/dotfiles.git ~/.config \
+cd ~/.config/hypr/scripts \
+chmod +x install.sh \
+./install.sh`
+
+
+## Folder layout
+
+All of my configs live inside: ~/.config
+
+example: ~/.config/nvim
+
+All of my custom scripts live inside ~/.config/hypr/scripts
+
+I do use ext4.
+
+
+
 # What the config means
 
 
