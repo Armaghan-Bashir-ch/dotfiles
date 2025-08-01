@@ -1,38 +1,30 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source ~/.pk10k.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# Alliases
 alias cls='clear'
+alias zen='zen-browser'
 alias vim='nvim'
 alias neofetch="$HOME/neofetch-solid-arch.sh"
 alias matrix="cmatrix"
-alias top="btop"
+alias top='btop'
+alias setcursor='hyprctl setcursor "Bibata-Modern-Ice" 20'
 # Ctrl + Left/Right
 bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-# Ctrl + Shift + Left/Right (optional - Zsh doesn't support selection here)
-bindkey "^[[1;6D" backward-word
-bindkey "^[[1;6C" forward-word
-bindkey "\e\x7f" backward-kill-word
+# Ctrl + Shift + Left/Right (optional - Zsh doesn't spport selection here)
 bindkey "^H" backward-kill-word
 export GTK_THEME=TokyoNight-Dark-BL
 HISTSIZE=10000
 SAVEHIST=10000
-source ~/.pk10k.zsh
- # Enable fzf keybindings for Bash
-
-
-# Make Ctrl+R open FZF-based history search
-
-
+export TERMINAL=ghostty
+export YAZI_CONFIG_HOME="$HOME/.config/yazi"
 # Load FZF bindings and completions
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
 [ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
@@ -51,3 +43,27 @@ export FZF_CTRL_R_OPTS="
   --color=marker:#cba6f7,pointer:#ffffff
   --color=border:#cba6f7,gutter:-1
 "
+
+# Created by `pipx` on 2025-07-16 07:50:33
+export PATH="$PATH:/home/armaghan/.local/bin"
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# or
+# source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main)
+echo -ne '\e[4 q'
+
+# TokyoNight Night Palette Mapping
+ZSH_HIGHLIGHT_STYLES[comment]='fg=#565f89'
+ZSH_HIGHLIGHT_STYLES[command]='fg=#7aa2f7'          # Blue
+ZSH_HIGHLIGHT_STYLES[function]='fg=#bb9af7'         # Purple
+ZSH_HIGHLIGHT_STYLES[builtin]='fg=#7dcfff'          # Light Blue
+ZSH_HIGHLIGHT_STYLES[alias]='fg=#7dcfff'
+ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=#ff9e64'    # Orange
+ZSH_HIGHLIGHT_STYLES[globbing]='fg=#ff9e64'
+ZSH_HIGHLIGHT_STYLES[commandseparator]='fg=#89ddff'
+ZSH_HIGHLIGHT_STYLES[argument]='fg=#c0caf5'         # Foreground text
+ZSH_HIGHLIGHT_STYLES[path]='fg=#9ece6a'             # Green
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#f7768e'    # Red
+ZSH_HIGHLIGHT_STYLES[default]='fg=#c0caf5'
+export PATH="$HOME/.cargo/bin:$PATH"
+eval "$(zoxide init zsh)"
