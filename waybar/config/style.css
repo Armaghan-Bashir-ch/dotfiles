@@ -1,25 +1,61 @@
-@define-color bar-bg rgba(0, 0, 0, 0);
-
-@define-color main-bg #11111b;
-@define-color main-fg #cdd6f4;
-
-@define-color wb-act-bg #a6adc8;
-@define-color wb-act-fg #313244;
-
-@define-color wb-hvr-bg #f5c2e7;
-@define-color wb-hvr-fg #313244;
-
 * {
   border: none;
   border-radius: 0px;
-  font-family: "FiraCode Nerd Font";
+  font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", sans-serif;
   font-weight: bold;
   font-size: 12px;
   min-height: 10px;
 }
 
+/* CHOSING THEMES */
+
+/* All thems to choose from
+   
+1. Aura-Dark
+2. Aura-Light
+3. Aura-Midnight
+4. Aura-Moon
+5. Catppuccin-Frappe
+6. Catppuccin-Latte
+7. Catppuccin-Macchiato
+8. Catppuccin-Mocha
+9. Cyberpunk-Edge
+10. Decay-Green
+11. Dracula
+12. EverForest
+13. Frosted-Glass
+14. Graphite-Mono
+15. Gruvbox-Dark
+16. Gruvbox-Light
+17. Gruvbox-Retro
+18. Kanagawa
+19. Material-Sakura
+20. Monokai
+21. Night-Owl
+22. Nord-Dark
+23. Nord-Frost
+24. Nord-Light
+25. OneDark
+26. OneLight
+27. Paper-Dark
+28. Paper-Light
+29. Rose-Pine
+30. Rose-Pine-Moon
+31. Solarized-Dark
+32. Solarized-Light
+33. Tokyo-Day
+34. Tokyo-Moon
+35. Tokyo-Night
+36. Tokyo-Storm
+37. Wall-Dcol
+
+..... more to come
+*/
+
+@import "./themes/Catppuccin-Macchiato.css"; /* Chose theme name, to use that theme, exmaple: Tokyo-Night.css */
+
 window#waybar {
-  background: @bar-bg;
+  background: @bar-fg;
 }
 
 tooltip {
