@@ -8,4 +8,4 @@ cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh
 
 > NOTE: This will override your existing `~/.config` folder, this command will backup it inside `~/.config/backup`.
 
-class="markdown-alert-title" More to be added in the future to this README.md
+More to be added in the future to this README.md
