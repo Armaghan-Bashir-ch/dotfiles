@@ -37,7 +37,3 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 
 # <a id="Previews"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Previews" width="450"/>
-
-<div align="center"><table><tr>Theme Select</tr><tr><td>
-<img src="<img width="1075" height="535" alt="image" src="https://github.com/user-attachments/assets/d3a628c7-bd34-4df3-833c-a7125154e728"/>"/></td><td>
-<img src="https://lens.usercontent.google.com/image?vsrid=COaf5Y6xneytggEQAhgBIiQ0ZjZlMTRkMC04YWVhLTQ3MGUtOTE5YS0wY2JmNDQ1YmEwNjUyBiICZWgoADjXluPkqvSOAw&gsessionid=u-EuUkjsJeyACDOKJQ8DfTAu2KsHiXzrEky558HuFAwOcKzAvbzofA"/></td></tr></table></div>
