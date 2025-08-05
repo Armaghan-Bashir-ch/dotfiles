@@ -3,7 +3,7 @@
 
 Arch Linux *and* hyprland is required as well as many other applications that will be installed when running `./install.sh`. Make sure your laptop has efficent storage and Ram to handle all of this, becuase it is a lot. 
 
-This *can* work on other [Linux-distros] (https://en.wikipedia.org/wiki/List_of_Linux_distributions) with Hyprland as GUI, but I have not tested it, and I will not, so do that on your own risk.
+This *can* work on other [Linux-distros](https://en.wikipedia.org/wiki/List_of_Linux_distributions) with Hyprland as GUI, but I have not tested it, and I will not, so do that on your own risk.
 
 
 Command:
