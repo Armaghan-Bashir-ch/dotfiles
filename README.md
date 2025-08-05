@@ -4,7 +4,7 @@
 git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config && \
 cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh</code></pre>
 
-
+<pre><code> :::caution This action will overwrite your existing configuration files. Please make a backup before proceeding. ::: <pre><code>
 
 
 
