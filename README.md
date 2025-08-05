@@ -26,7 +26,7 @@ cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Credits" width="450"/>
 
 > [!Note]
-> Many things from this config/dotfiles has done through some research, and using other people's dotfiles.
+> Many things from this config/dotfiles has been done through some research, and using other people's dotfiles.
 > While I have made many changes to the configs I got from the internet, to make the style like how I want it. I would still like to give credit where credit is due
 > for all of the original roots and designs for my dotfiles today.
 
