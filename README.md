@@ -39,5 +39,6 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Previews" width="450"/>
 
 <div align="center"><table><tr>Rofi</tr><tr><td>
-<img src="<img width="1389" height="651" alt="image" src="https://github.com/user-attachments/assets/321fd13d-4df2-4337-b1da-6f7723117a0d" />
-"/></td><td>
+
+<img width="1314" height="617" alt="image" src="https://github.com/user-attachments/assets/76ed0426-116d-49e3-916d-b4f2e5d65cb4" />
+
