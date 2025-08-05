@@ -40,5 +40,5 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 
 <div align="center"><table><tr>Rofi</tr><tr><td>
 
-<img width="1314" height="617" alt="image" src="https://github.com/user-attachments/assets/76ed0426-116d-49e3-916d-b4f2e5d65cb4" />
+<img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/76ed0426-116d-49e3-916d-b4f2e5d65cb4" />
 
