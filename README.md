@@ -2,7 +2,7 @@
 
 ## Rofi
 
-<img width="1004" height="634" alt="image" src="https://github.com/user-attachments/assets/bdd0f53c-a537-413b-ad03-9655f39668b9" />
+<img width="1039" height="675" alt="image" src="https://github.com/user-attachments/assets/9e8f66e5-5649-4998-91ba-75aaac6efe68" />
 
 <img width="929" height="608" alt="image" src="https://github.com/user-attachments/assets/61ba9c60-9fec-43ce-b356-78d5cf99df60" />
 
