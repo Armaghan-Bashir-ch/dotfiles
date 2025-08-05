@@ -22,7 +22,7 @@ cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh
 > Changes may not apply, if you have not restarted or rebooted your device, so make sure to do that before.
 
 
-# # <a id="Credits"></a>
+# <a id="Credits"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Credits" width="450"/>
 
 > [!Note]
