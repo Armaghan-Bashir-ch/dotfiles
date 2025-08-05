@@ -1,10 +1,10 @@
 # 🚀 Installation
 
-`[ -d ~/.config ] && mv ~/.config ~/.config.backup && \
+<pre><code>## `[ -d ~/.config ] && mv ~/.config ~/.config.backup && \
 git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config && \
-cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh`
+cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh`. </code></pre>
 
-<pre><code>## ⚠️ Disclaimer These dotfiles will **overwrite your entire `~/.config` directory**. Make sure you back up any existing configuration files before installing. You can manually back up with: ```bash mv ~/.config ~/.config.backup ``` > I am not responsible for any data loss or system misconfiguration caused by this setup. </code></pre>
+
 
 
 
