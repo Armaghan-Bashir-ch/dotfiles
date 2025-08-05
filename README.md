@@ -19,6 +19,19 @@ cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh
 > However, this command makes sure to backup existing files and dirs (if they exist) inside `~/.config/backup`.
 
 > [!Tip]
-> Changes may not apply, if you have not restarted or rebooted your device
+> Changes may not apply, if you have not restarted or rebooted your device, so make sure to do that before.
+
+
+# # <a id="Credits"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Credits" width="450"/>
+
+> [!Note]
+> Many things from this config/dotfiles has done through some research, and using other people's dotfiles.
+> While I have made many changes to the configs I got from the internet, to make the style like how I want it. I would still like to give credit where credit is due
+> for all of the original roots and designs for my dotfiles today.
+
+Waybar: [Hyde Project] (https://github.com/HyDE-Project/HyDE/)
+Rofi (Styles): [Hyde Project] (https://github.com/HyDE-Project/HyDE/)
+
 
 More to be added in the future to this README.md
