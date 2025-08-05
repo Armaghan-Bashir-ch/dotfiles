@@ -30,7 +30,7 @@ cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh
 > While I have made many changes to the configs I got from the internet, to make the style like how I want it. I would still like to give credit where credit is due
 > for all of the original roots and designs for my dotfiles today.
 
-Waybar: [Hyde Project](https://github.com/HyDE-Project/HyDE/)
+Waybar: [Hyde Project](https://github.com/HyDE-Project/HyDE/)                                                                                                       
 Rofi (Styles): [Hyde Project](https://github.com/HyDE-Project/HyDE/)
 
 
