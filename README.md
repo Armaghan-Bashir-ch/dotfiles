@@ -1,6 +1,6 @@
 # 🚀 Installation
 
-<pre><code>## `[ -d ~/.config ] && mv ~/.config ~/.config.backup && \
+<pre><code> `[ -d ~/.config ] && mv ~/.config ~/.config.backup && \
 git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config && \
 cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh`. </code></pre>
 
