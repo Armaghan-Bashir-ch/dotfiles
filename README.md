@@ -31,7 +31,7 @@ This will clone the entire repo to `~/.config`
 
 ```
 cd ~/installation \
-chmod +x install.sh
+chmod +x install.sh \
 ./install.sh
 ```
 > [!Note]
