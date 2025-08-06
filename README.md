@@ -13,19 +13,30 @@ Make sure your device has efficent storage and Ram to handle all of this, becuas
 This *can* work on other [Linux-distros](https://en.wikipedia.org/wiki/List_of_Linux_distributions) with Hyprland as GUI, but I have not tested it, and I will not, so do that on your own risk.
 
 
-## <a id="Commands"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Commands" width="450"/>
+## Commands
 
 ```
-git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config && \
-```
-```
-cd ~/.config/hypr/scripts && chmod +x install.sh && ./install.sh
+[ -d ~/.config ]
+mv ~/.config ~/.config.backup
 ```
 
+> [!Note]
+> This will first check if `~/.config` exists, and if it does it will backup all of the existing files and dirs inside of it to ~/.config.backup.                   
+> Make sure to run this command before cloning.
+
 ```
-[ -d ~/.config ] && mv ~/.config ~/.config/backup
+git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config \
 ```
+> [!Note]
+> This will clone the entire repo to `~/.config`
+
+```
+cd ~/.installation \
+chmod +x install.sh
+./install.sh
+```
+> [!Note]
+> This will go to the `installation` directory, and run ./install.sh, which will install the required apps/packages for the dotfiles
 
 > [!Caution]
 > Note that **this will override everything in your current `~/.config` folder, ever single file**.
