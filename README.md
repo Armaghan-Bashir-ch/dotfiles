@@ -94,6 +94,8 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 
 Rofi
 
-|Type 1|Type 2|Type 3|Type 4|
-|--|--|--|--|
-|![img](previews/launchers/type-1.gif)|![img](previews/launchers/type-2.gif)|![img](previews/launchers/type-3.gif)|![img](previews/launchers/type-4.gif)
+<details>
+<summary><b><code>Launcher</code></b></summary>
+
+<img width="1042" height="558" alt="image" src="https://github.com/user-attachments/assets/a329225a-a94a-4b4b-934d-8bb83b02c1a0" />
+
