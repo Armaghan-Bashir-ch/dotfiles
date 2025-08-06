@@ -30,7 +30,7 @@ git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config \
 This will clone the entire repo to `~/.config`
 
 ```
-cd ~/.installation \
+cd ~/installation \
 chmod +x install.sh
 ./install.sh
 ```
