@@ -27,8 +27,7 @@ mv ~/.config ~/.config.backup
 ```
 git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config \
 ```
-> [!Note]
-> This will clone the entire repo to `~/.config`
+This will clone the entire repo to `~/.config`
 
 ```
 cd ~/.installation \
