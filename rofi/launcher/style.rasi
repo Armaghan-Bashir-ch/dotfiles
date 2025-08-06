@@ -1,4 +1,3 @@
-/*****----- Configuration -----*****/
 * {
     main-bg:            #11111be6;
     main-fg:            #cdd6f4ff;
@@ -29,7 +28,7 @@ configuration {
 
 // Main //
 window {
-    height:                      600px;
+    height:                      500px;
     width:                       900px;
     transparency:                "real";
     fullscreen:                  false;
@@ -37,8 +36,8 @@ window {
     cursor:                      "default";
     spacing:                     0px;
     padding:                     0px;
-    border:                      2px;
-    border-radius:               40px;
+    border:                      0px;
+    border-radius:               50px;
     border-color:                transparent;
     background-color:            transparent;
 }
@@ -48,27 +47,26 @@ mainbox {
     padding:                     0px;
     orientation:                 vertical;
     children:                    [ "inputbar" , "listbox"];
-    background-color:            transparent;
-    background-image:            url("~/wallpapers/solar_system_mocha.png?raw=true", height);
+    background-color:           transparent;
+    background-image:       url("/home/armaghan/.config/rofi/launcher/backgrounds/Catppuccin-Mocho/Black-Hole-For-Rofi.png", width);
 }
 
 
 // Inputs //
 inputbar {
     enabled:                     true;
-    spacing:                     0px;
-    padding:                     80px;
+    padding:                     40px;
     children:                    [ "entry" ];
-    background-color:            @main-bg;
-    background-image:            url("~/wallpapers/solar_system_mocha.png?raw=true", width);
+    background-color:            transparent;
+    background-image:            url("/home/armaghan/.config/rofi/launcher/backgrounds/Catppuccin-Mocho/Black-Hole-For-Rofi.png", width);
 }
 entry {
-    border-radius:               30px;
+    border-radius:               50px;
     enabled:                     true;
     spacing:                     0px;
     padding:                     20px;
     text-color:                  @main-fg;
-    background-color:            @main-bg;
+    background-color:            rgba(187, 154, 247, 0.1);
 }
 
 
@@ -78,13 +76,13 @@ listbox {
     spacing:                     0px;
     orientation:                 horizontal;
     children:                    [ "listview"];
-    background-color:            @main-bg;
+    background-color: transparent;
 }
 listview {
     padding:                     10px;
-    spacing:                     10px;
+    spacing:                     5px;
     enabled:                     true;
-    columns:                     2;
+    columns:                     1;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
@@ -132,8 +130,8 @@ element {
     }
 }
 element selected.normal {
-    background-color:            @select-bg;
-    text-color:                  @select-fg;
+    background-color:            rgba(187, 154, 247, 0.1);
+    text-color:                  @main-fg;
 }
 element-icon {
     size:                        47px;
