@@ -48,6 +48,9 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 > [!Note]
 > "SUPER" is the Window/META key
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
 | Key Combination           | Purpose                                     |
 |---------------------------|---------------------------------------------|
 | `SUPER SHIFT` + `F`       | Launch Firefox                              |
