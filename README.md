@@ -35,7 +35,7 @@ chmod +x install.sh
 ./install.sh
 ```
 > [!Note]
-> This will go to the `installation` directory, and run ./install.sh, which will install the required apps/packages for the dotfiles
+> This will go to the `installation` directory, and run `./install.sh` which will install the required apps/packages for the dotfiles
 
 > [!Caution]
 > Note that **this will override everything in your current `~/.config` folder, ever single file**.
