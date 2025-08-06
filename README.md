@@ -101,9 +101,11 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 
 <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/a329225a-a94a-4b4b-934d-8bb83b02c1a0" />
 
+</details>
+
 <details>
 <summary><b><code>Clipboard</code></b></summary>
 
 <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/2cbc6f35-4056-4d9f-8a18-1c21d50ab518" />
 
-
+</details>
