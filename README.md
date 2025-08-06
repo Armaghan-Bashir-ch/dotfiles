@@ -16,7 +16,7 @@ This *can* work on other [Linux-distros](https://en.wikipedia.org/wiki/List_of_L
 Command:
 
 ```
-[ -d ~/.config ]
+[ -d ~/.config ] \
 mv ~/.config ~/.config.backup
 ```
 
@@ -25,7 +25,7 @@ mv ~/.config ~/.config.backup
 > Make sure to run this command before cloning.
 
 ```
-git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config \
+git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config 
 ```
 This will clone the entire repo to `~/.config`
 
