@@ -2,7 +2,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Installation" width="450"/>
 
 > [!Caution]
-> Read the this entire `README.md` first, before making any moves.
+> Read this entire `README.md` first, before making any moves.
 
 Arch Linux *and* hyprland is required as well as many other applications that will be installed when running:  
 `
