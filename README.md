@@ -98,6 +98,7 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 <summary><b><code>Rofi</code></b></summary>
 
 <details>
+  
 <summary><b><code>Launcher</code></b></summary>
 
 <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/a329225a-a94a-4b4b-934d-8bb83b02c1a0" />
