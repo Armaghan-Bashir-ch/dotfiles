@@ -119,3 +119,9 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 <img width="1000" height="619" alt="image" src="https://github.com/user-attachments/assets/21eda65a-1af2-4eb2-b99f-577c826d4dbf" />
 
 <details>
+
+<details>
+
+
+<details>
+<summary><b><code>Wifi</Wifi></b></summary>
