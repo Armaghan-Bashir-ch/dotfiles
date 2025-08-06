@@ -1,4 +1,4 @@
-# <a id="Installation"></a>
+3# <a id="Installation"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Installation" width="450"/>
 
 > [!Caution]
@@ -42,5 +42,5 @@ Rofi (Styles): [Hyde Project](https://github.com/HyDE-Project/HyDE/)
 Nvim (original design): [itse4elhaam](https://github.com/itse4elhaam/nvim-nvchad)                                                                                   
 Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fcee8cdeb55cd678499935576869a68356aaaa0)
 
-# <a id="Previews"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Previews" width="450"/>
+# <a id="Binds"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Binds" width="450"/>
