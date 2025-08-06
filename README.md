@@ -13,7 +13,7 @@ Make sure your device has efficent storage and Ram to handle all of this, becuas
 This *can* work on other [Linux-distros](https://en.wikipedia.org/wiki/List_of_Linux_distributions) with Hyprland as GUI, but I have not tested it, and I will not, so do that on your own risk.
 
 
-## Commands
+Command:
 
 ```
 [ -d ~/.config ]
