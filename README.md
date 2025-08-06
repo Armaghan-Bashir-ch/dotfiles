@@ -87,3 +87,13 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 | `SUPER` + `F`             | Toggle floating mode                        |
 | `SUPER` + `Mouse Left`    | Resize window                               |
 | `SUPER` + `Mouse Right`   | Move window                                 |
+
+
+# <a id="Previews"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Previews" width="450"/>
+
+Rofi
+
+|Type 1|Type 2|Type 3|Type 4|
+|--|--|--|--|
+|![img](previews/launchers/type-1.gif)|![img](previews/launchers/type-2.gif)|![img](previews/launchers/type-3.gif)|![img](previews/launchers/type-4.gif)
