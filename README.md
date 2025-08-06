@@ -21,7 +21,7 @@ mv ~/.config ~/.config.backup
 ```
 
 > [!Note]
-> This will first check if `~/.config` exists, and if it does it will backup all of the existing files and dirs inside of it to ~/.config.backup.                   
+> This will first check if `~/.config` exists, and if it does it will backup all of the existing files and dirs inside of it to `~/.config.backup`                   
 > Make sure to run this command before cloning.
 
 ```
