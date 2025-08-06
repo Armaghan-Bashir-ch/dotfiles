@@ -94,6 +94,7 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 
 
 <details>
+  
 <summary><b><code>Rofi</code></b></summary>
 
 <details>
@@ -104,8 +105,16 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 </details>
 
 <details>
+  
 <summary><b><code>Clipboard</code></b></summary>
 
 <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/2cbc6f35-4056-4d9f-8a18-1c21d50ab518" />
 
 </details>
+
+<details>
+<summary><b><code>Rofi</Wifi></b></summary>
+
+<img width="1000" height="619" alt="image" src="https://github.com/user-attachments/assets/21eda65a-1af2-4eb2-b99f-577c826d4dbf" />
+
+<details>
