@@ -44,3 +44,29 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 
 # <a id="Binds"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Binds" width="450"/>
+
+
+| key             | Command                                                                                                                         | Meaning                                                                                                                                                     |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `SUPER SHIFT` `F`  | Launch Firefox  
+| `SUPER` `Q`        | Launch Ghostty
+| `SUPER SHIFT` `S`  | Launch Spotify                                                                                
+| `SUPER SHIFT` `O`  | Launch Obsidian
+| `SUPER SHIFT` `A`  | Launch Alacritty 
+| `SUPER SHIFT` `W`  | Launch Waybar
+| `CONTROL` `SPACE`  | Launch Rofi (App launcher)
+| `SUPER` `V`        | Launch Rofi (Clipboard)
+| `SUPER CONTROL` `W`| Launch Rofi (Wifi)
+| `SUPER` `L`        | Launch Lock-Screen (Hyprlock)
+| `SUPER` `S`        | Take screenshot (Hyprshot)
+| `SUPER` `X`        | Launch Wlogout (Powermenu)
+| `SUPER CONTROL` `R`| Restore previous session on startup
+| `SUPER` `1-9`      | Go to workspace 1-9
+| `SUPER` `M`        | Go to workspace 10
+| `SUPER SHIFT` `1-10`| Move focused window to workspace 1-10
+| `SUPER` `W`         | Close/kill focused app
+| `SUPER` `h/l/k/j`   | Move focus to windows left/right/up/down
+| `SUPER CONTROl` `h/l/k/j`| Move/Snap window left/right/up/down, alongside other windows
+| `SUPER` `F`         | Go to Togglefloating mode
+| `SUPER` `MOUSE-LEFT`| Resize window
+| `SUPER` `MOUSE-RIGHT`| Move window
