@@ -42,7 +42,7 @@ chmod +x install.sh
 > However, this command makes sure to backup existing files and dirs (if they exist) inside `~/.config/backup`.
 
 > [!Tip]
-> Changes may not apply, if you have not restarted or rebooted your device, so make sure to do that before.
+> Changes may not apply, if you have not restarted or rebooted your device, so make sure to do that after the installation is completed.
 
 
 # <a id="Credits"></a>
