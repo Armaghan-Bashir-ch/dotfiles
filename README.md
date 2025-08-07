@@ -5,10 +5,6 @@
 > These Dotfiles, are just my files that I use for my daily workflow on Arch Linux Hyprland, they are absolutely **not meant to be a project**
 > But if you wish to use the entire dotfiles, then read the **entire** `README.md` carefully, and then make your move
 
-![Made with Arch](https://img.shields.io/badge/Made%20with-Arch%20Linux-1793D1?logo=arch-linux&logoColor=white)
-![Hyprland](https://img.shields.io/badge/WM-Hyprland-purple?logo=windowmaker)
-
-
 Arch Linux *and* hyprland is required as well as many other applications that will be installed when running:  
 `
 ./install.sh
