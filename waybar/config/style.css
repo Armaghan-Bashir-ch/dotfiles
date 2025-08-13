@@ -1,3 +1,10 @@
+/* ██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗  */
+/* ██║    ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗ */
+/* ██║ █╗ ██║███████║ ╚████╔╝ ██████╔╝███████║██████╔╝ */
+/* ██║███╗██║██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗ */
+/* ╚███╔███╔╝██║  ██║   ██║   ██████╔╝██║  ██║██║  ██║ */
+/*  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ */
+
 * {
   border: none;
   border-radius: 0px;
@@ -6,56 +13,10 @@
   font-size: 12px;
   min-height: 10px;
 }
-
-/* CHOSING THEMES */
-
-/* All thems to choose from
-   
-1. Aura-Dark
-2. Aura-Light
-3. Aura-Midnight
-4. Aura-Moon
-5. Catppuccin-Frappe
-6. Catppuccin-Latte
-7. Catppuccin-Macchiato
-8. Catppuccin-Mocha
-9. Cyberpunk-Edge
-10. Decay-Green
-11. Dracula
-12. EverForest
-13. Frosted-Glass
-14. Graphite-Mono
-15. Gruvbox-Dark
-16. Gruvbox-Light
-17. Gruvbox-Retro
-18. Kanagawa
-19. Material-Sakura
-20. Monokai
-21. Night-Owl
-22. Nord-Dark
-23. Nord-Frost
-24. Nord-Light
-25. OneDark
-26. OneLight
-27. Paper-Dark
-28. Paper-Light
-29. Rose-Pine
-30. Rose-Pine-Moon
-31. Solarized-Dark
-32. Solarized-Light
-33. Tokyo-Day
-34. Tokyo-Moon
-35. Tokyo-Night
-36. Tokyo-Storm
-37. Wall-Dcol
-
-..... more to come
-*/
-
-@import "./themes/Catppuccin-Macchiato.css"; /* Chose theme name, to use that theme, exmaple: Tokyo-Night.css */
+@import "themes/Tokyo-Moon.css";
 
 window#waybar {
-  background: @bar-fg;
+  background: transparent;
 }
 
 tooltip {
@@ -69,6 +30,7 @@ tooltip {
   box-shadow: none;
   text-shadow: none;
   padding: 0px;
+  background-color: transparent;
   border-radius: 25px;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -83,18 +45,18 @@ tooltip {
   background: @main-fg;
   color: @main-bg;
   margin-left: 3px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-right: 3px;
   animation: gradient_f 20s ease-in infinite;
   transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #workspaces button:hover {
-  background: @wb-hvr-bg;
+  background: @main-fg;
   color: @wb-hvr-fg;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
   animation: gradient_f 20s ease-in infinite;
   transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
@@ -157,6 +119,7 @@ tooltip {
 #custom-ghostty,
 #window,
 #workspaces,
+#custom-disk,
 #custom-l_end,
 #custom-r_end,
 #custom-sl_end,
@@ -165,14 +128,14 @@ tooltip {
 #custom-rr_end {
   color: @main-fg;
   background: @main-bg;
-  opacity: 1;
+  opacity: 2;
   margin: 4px 0px 4px 0px;
   padding-left: 4px;
   padding-right: 4px;
 }
 
 #idle_inhibitor {
-  padding-right: 5px;
+  padding-right: 2px;
 }
 
 #workspaces,
