@@ -1,20 +1,18 @@
-* {
-    main-bg:            #11111be6;
-    main-fg:            #cdd6f4ff;
-    main-br:            #cba6f7ff;
-    main-ex:            #f5e0dcff;
-    select-bg:          #b4befeff;
-    select-fg:          #11111bff;
-    separatorcolor:     transparent;
-    border-color:       transparent;
-}
 
+// ██████╗  ██████╗ ███████╗██╗ //
+// ██╔══██╗██╔═══██╗██╔════╝██║ //
+// ██████╔╝██║   ██║█████╗  ██║ //
+// ██╔══██╗██║   ██║██╔══╝  ██║ //
+// ██║  ██║╚██████╔╝██║     ██║ //
+// ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝ //
 
-// Config //
+// configuration //
+
 configuration {
     modi:                        "drun,filebrowser,window,run";
     show-icons:                  true;
     display-drun:                "";
+    no-show-match:               true;
     display-run:                 "";
     display-filebrowser:         "";
     display-window:              "";
@@ -24,6 +22,7 @@ configuration {
     icon-theme:                  "Tela-circle-dracula";
 }
 
+@import "/home/armaghan/.config/rofi/launcher/themes/Tokyo-Night.rasi"
 
 
 // Main //
@@ -36,9 +35,9 @@ window {
     cursor:                      "default";
     spacing:                     0px;
     padding:                     0px;
-    border:                      0px;
+    border:                      1px;
     border-radius:               50px;
-    border-color:                transparent;
+    border-color:                @main-fg;
     background-color:            transparent;
 }
 mainbox {
@@ -46,41 +45,38 @@ mainbox {
     spacing:                     0px;
     padding:                     0px;
     orientation:                 vertical;
-    children:                    [ "inputbar" , "listbox"];
+    children:                    [ "inputbar" ,"listbox"];
     background-color:           transparent;
-    background-image:       url("/home/armaghan/.config/rofi/launcher/backgrounds/Catppuccin-Mocho/Black-Hole-For-Rofi.png", width);
+    background-image:           url("~/backgrounds/Tokyo-Night/Buildings-Tokyo.png", width);
 }
 
-
-// Inputs //
 inputbar {
     enabled:                     true;
     padding:                     40px;
-    children:                    [ "entry" ];
+    children:                    ["entry"];
     background-color:            transparent;
-    background-image:            url("/home/armaghan/.config/rofi/launcher/backgrounds/Catppuccin-Mocho/Black-Hole-For-Rofi.png", width);
 }
 entry {
     border-radius:               50px;
-    enabled:                     true;
+    enabled:                     false;
     spacing:                     0px;
-    padding:                     20px;
+    padding:                     10px;
+    background-color:            @main-bg;            
     text-color:                  @main-fg;
-    background-color:            rgba(187, 154, 247, 0.1);
 }
 
 
-// Lists //
 listbox {
     padding:                     30px;
     spacing:                     0px;
     orientation:                 horizontal;
-    children:                    [ "listview"];
-    background-color: transparent;
+    children:                    [ "listview", "mode-switcher"];
+    background-color:            transparent;
 }
+
 listview {
-    padding:                     10px;
-    spacing:                     5px;
+    padding:                     20px;
+    spacing:                     8px;
     enabled:                     true;
     columns:                     1;
     cycle:                       true;
@@ -94,30 +90,33 @@ listview {
     background-color:            transparent;
     text-color:                  @main-fg;
 }
+
 mode-switcher {
     orientation:                 vertical;
     width:                       95px;
-    enabled:                     true;
-    padding:                     15px;
+    enabled:                     false;
+    padding:                    5px;
     spacing:                     10px;
     background-color:            transparent;
 }
+
 button {
     cursor:                      pointer;
-    border-radius:               50px;
-    background-color:            @main-bg;
-    text-color:                  @main-fg;
-}
-button selected {
+    border-radius:               100px;
     background-color:            @main-fg;
     text-color:                  @main-bg;
+}
+
+button selected {
+    background-color:            @main-bg;
+    text-color:                  @main-fg;
 }
 
 
 // Elements //
 element {
     enabled:                     true;
-    spacing:                     20px;
+    spacing:                     40px;
     padding:                     9px;
     border-radius:               25px;
     cursor:                      pointer;
@@ -130,11 +129,11 @@ element {
     }
 }
 element selected.normal {
-    background-color:            rgba(187, 154, 247, 0.1);
+    background-color:            @main-bg;
     text-color:                  @main-fg;
 }
 element-icon {
-    size:                        47px;
+    size:                        48px;
     cursor:                      inherit;
     background-color:            transparent;
     text-color:                  inherit;
