@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+
+
+##### RUN THIS AT YOUR OWN RISK #####
+
 # Ask for confirmation
 read -rp "Do you want to start the installation? [y/N]: " confirm
 if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
@@ -25,7 +29,7 @@ figlet -c "Installation Time!"
 echo -e "${NC}"
 sleep 1
 
-figlet "INSTALLATION TIME"  # FIXED TYPO from "INSTALLTION"
+figlet "INSTALLATION TIME" 
 
 # Install yay (if not installed)
 if ! command -v yay &>/dev/null; then
