@@ -55,7 +55,7 @@ chmod +x install.sh \
 > for all of the original roots and designs for my dotfiles today.
 
 Waybar: [Hyde Project](https://github.com/HyDE-Project/HyDE/)                                                                                                       
-Rofi (Styles): [Hyde Project](https://github.com/HyDE-Project/HyDE/)                                                                                                
+Rofi (Styles & themes): [Hyde Project](https://github.com/HyDE-Project/HyDE/)                                                                                                
 Nvim (original design): [itse4elhaam](https://github.com/itse4elhaam/nvim-nvchad)                                                                                   
 Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fcee8cdeb55cd678499935576869a68356aaaa0)
 
