@@ -1,6 +1,6 @@
 # Networking
 
-> [!question]
+> [!QUESTION]
 > What is a Network?
 
 > [!answer]
