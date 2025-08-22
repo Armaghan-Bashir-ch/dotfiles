@@ -115,7 +115,7 @@ Encryption is basically turning humanly readable data (Plain text) into useless/
 - A key (Private) is used to convert that plain text into cipher text midway through the data transfer
 - When the data is sent to the destination fully, then the key (public) is used to decrypt that cipher text data into the plain text it was before
 
-> [!important]
+> [!Important]
 > A encryption algorithm is needed to convert the cipher text into plain text and vice versa
 > Examples of a Encryption Algorithms:
 >
@@ -456,7 +456,7 @@ Programming Languages
 - JS (Java Script)
 - HTML (Hyper Text Markup Language)
 
->[!important] Frontend vs Backend
+>[!Important] Frontend vs Backend
 >Frontend is the design and style of a website, how the buttons are designed, how much border radius is there, how rounded are they
 >The backend is the core thing of a website, what happens when a button is pressed, the actions that happen behind the website, how the server is managed, etc...
 
@@ -572,12 +572,6 @@ function greet(person) { // Introduces a fucntion which combines greet (also a v
 console.log(greet(name)); // Print out the entire thing inside of console.log// 
 
 ```
-
-
-DataBase:
-
-	-
-
 
 **Things left**:
 
