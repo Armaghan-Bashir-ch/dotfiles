@@ -1,6 +1,6 @@
 # Networking
 
-> [INFO]
+> [!INFO]
 > What is a Network?
 
 > [!answer]
