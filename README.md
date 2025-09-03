@@ -20,8 +20,9 @@ Commands
 [ -d ~/.config ] \
 mv ~/.config ~/.config.backup
 ```
+### Stuff I use
 
->[!Important] stuff I use
+>[!Important]
 >[hyprland](https://github.com/hyprwm/Hyprland)
 >[zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 >[zff](https://github.com/sahaj-b/zff)
