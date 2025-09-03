@@ -21,8 +21,28 @@ Commands
 mv ~/.config ~/.config.backup
 ```
 
+>[!Important]stuff I use
+>[hyprland](https://github.com/hyprwm/Hyprland)
+>[zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+>[zff](https://github.com/sahaj-b/zff)
+>[yay](https://github.com/Jguer/yay)
+>[zen-browser](https://github.com/zen-browser/desktop)
+>[Powerlevle10k](https://github.com/romkatv/powerlevel10k)
+>[zoxide](https://github.com/ajeetdsouza/zoxide)
+>[fd](https://github.com/sharkdp/fd)
+>[rg](https://github.com/BurntSushi/ripgrep)
+>[nvim](https://github.com/neovim/neovim)
+>[tmux](https://github.com/tmux/tmux/wiki)
+>[ghostty](https://ghostty.org/)
+>[obsidian](https://obsidian.md/)
+>[rofi](https://github.com/davatorium/rofi)
+>[waybar](https://github.com/Alexays/Waybar)
+>[lazygit](https://github.com/jesseduffield/lazygit)
+>[gh](https://cli.github.com/)
+
+
 > [!Note]
-> This will first check if `~/.config` exists, and if it does it will backup all of the existing files and dirs inside of it to `~/.config.backup`                   
+> This will first check if `~/.config` exists, and if it does it will backup all of the existing files and dirs inside of it to `~/.config.backup`                  
 > Make sure to run this command before cloning.
 
 ```
@@ -30,21 +50,12 @@ git clone --depth 1 https://github.com/Armaghan-Bashir-ch/dotfiles ~/.config
 ```
 This will clone the entire repo to `~/.config`
 
-```
-cd ~/installation \
-chmod +x install.sh \
-./install.sh
-```
-> [!Note]
-> This will go to the `installation` directory, and run `./install.sh` which will install the required apps/packages for the dotfiles
-
 > [!Caution]
-> Note that **this will override everything in your current `~/.config` folder, ever single file**.
+> Note that **this will override everything in your current `~/.config` folder, every single file**.
 > However, this command makes sure to backup existing files and dirs (if they exist) inside `~/.config/backup`.
 
 > [!Tip]
 > Changes may not apply, if you have not restarted or rebooted your device, so make sure to do that after the installation is completed.
-
 
 # <a id="Credits"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Credits" width="450"/>
