@@ -55,11 +55,12 @@
 35. Tokyo-Night
 36. Tokyo-Storm
 37. Wall-Dcol
-2
+
+
 ..... more to come
 */
 
-@import "themes/Tokyo-Moon.css";
+@import "themes/Decay-Green.css";
 
 window#waybar {
   background: transparent;
@@ -144,7 +145,7 @@ tooltip {
 #backlight,
 #battery,
 #bluetooth,
-#custom-cliphist,
+#custom-clipboard,
 #clock,
 #cpu,
 #custom-gpuinfo,
@@ -154,16 +155,16 @@ tooltip {
 #custom-mode,
 #mpris,
 #network,
-#custom-power,
+#custom-lockscreen,
 #pulseaudio,
 #custom-spotify,
 #taskbar,
 #tray,
 #custom-updates,
 #custom-wallchange,
-#custom-wbar,
+#custom-applauncher,
 #custom-ghostty,
-#window,
+#custom-todo,
 #workspaces,
 #custom-disk,
 #custom-l_end,
