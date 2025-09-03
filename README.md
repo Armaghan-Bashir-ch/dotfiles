@@ -25,37 +25,37 @@ mv ~/.config ~/.config.backup
 >[!Important]                                                                                                                                            
 > - [hyprland](https://github.com/hyprwm/Hyprland)
 >
->[zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+> - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 >
->[zff](https://github.com/sahaj-b/zff)
+> - [zff](https://github.com/sahaj-b/zff)
 >
->[yay](https://github.com/Jguer/yay)
+> - [yay](https://github.com/Jguer/yay)
 >
->[zen-browser](https://github.com/zen-browser/desktop)
+> - [zen-browser](https://github.com/zen-browser/desktop)
 >
->[Powerlevle10k](https://github.com/romkatv/powerlevel10k)
+> - [Powerlevle10k](https://github.com/romkatv/powerlevel10k)
 >
->[zoxide](https://github.com/ajeetdsouza/zoxide)
+> - [zoxide](https://github.com/ajeetdsouza/zoxide)
 >
->[fd](https://github.com/sharkdp/fd)
+> - [fd](https://github.com/sharkdp/fd)
 >
->[rg](https://github.com/BurntSushi/ripgrep)
+> - [rg](https://github.com/BurntSushi/ripgrep)
 >
->[nvim](https://github.com/neovim/neovim)
+> - [nvim](https://github.com/neovim/neovim)
 >
->[tmux](https://github.com/tmux/tmux/wiki)
+> - [tmux](https://github.com/tmux/tmux/wiki)
 >
->[ghostty](https://ghostty.org/)
+> - [ghostty](https://ghostty.org/)
 >
->[obsidian](https://obsidian.md/)
+> - [obsidian](https://obsidian.md/)
 >
->[rofi](https://github.com/davatorium/rofi)
+> - [rofi](https://github.com/davatorium/rofi)
 >
->[waybar](https://github.com/Alexays/Waybar)
+> - [waybar](https://github.com/Alexays/Waybar)
 >
->[lazygit](https://github.com/jesseduffield/lazygit)
+> - [lazygit](https://github.com/jesseduffield/lazygit)
 >
->[gh](https://cli.github.com/)
+> - [gh](https://cli.github.com/)
 
 
 
