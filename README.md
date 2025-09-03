@@ -21,7 +21,7 @@ Commands
 mv ~/.config ~/.config.backup
 ```
 
->[!Important]stuff I use
+>[!Important] stuff I use
 >[hyprland](https://github.com/hyprwm/Hyprland)
 >[zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 >[zff](https://github.com/sahaj-b/zff)
