@@ -93,7 +93,7 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 
 | Key Combination           | Purpose                                     |
 |---------------------------|---------------------------------------------|
-| `SUPER SHIFT` + `F`       | Launch Firefox                              |
+| `SUPER SHIFT` + `Z`       | Launch Zen Browser                          |
 | `SUPER` + `Q`             | Launch Ghostty                              |
 | `SUPER SHIFT` + `S`       | Launch Spotify                              |
 | `SUPER SHIFT` + `O`       | Launch Obsidian                             |
@@ -120,36 +120,4 @@ Tmux (statusbar): [Itse4elhaam](https://github.com/itse4elhaam/dotfiles/tree/1fc
 # <a id="Previews"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Previews" width="450"/>
 
-
-<details>
-  
-<summary><b><code>Rofi</code></b></summary>
-
-<details>
-  
-<summary><b><code>Launcher</code></b></summary>
-
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/a329225a-a94a-4b4b-934d-8bb83b02c1a0" />
-
-</details>
-
-<details>
-  
-<summary><b><code>Clipboard</code></b></summary>
-
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/2cbc6f35-4056-4d9f-8a18-1c21d50ab518" />
-
-</details>
-
-<details>
-<summary><b><code>Wifi</Wifi></b></summary>
-
-<img width="1000" height="619" alt="image" src="https://github.com/user-attachments/assets/21eda65a-1af2-4eb2-b99f-577c826d4dbf" />
-
-<details>
-
-<details>
-
-
-<details>
-<summary><b><code>Wifi</Wifi></b></summary>
+## Under Construction 🚧
