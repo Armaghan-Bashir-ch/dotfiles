@@ -23,7 +23,7 @@ mv ~/.config ~/.config.backup
 ### Stuff I use
 
 >[!Important]                                                                                                                                            
->[hyprland](https://github.com/hyprwm/Hyprland)
+> - [hyprland](https://github.com/hyprwm/Hyprland)
 >
 >[zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 >
